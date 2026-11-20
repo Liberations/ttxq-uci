@@ -1,0 +1,28 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+This project (the "wrapper") is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+This project is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this
+project. If not, see <https://www.gnu.org/licenses/>.
+
+The full text of the GNU General Public License version 3 is available at:
+    https://www.gnu.org/licenses/gpl-3.0.txt
+
+Note on bundled components:
+  This repository embeds libpikafishso.so, a build of the Pikafish Xiangqi engine
+  (https://github.com/official-pikafish/Pikafish), which is distributed under the
+  GNU GPL v3.0. The accompanying NNUE network file (pikafish.nnue) is not included
+  in this repository due to its size; see README.md for how to obtain it. The
+  upstream engine and network remain the property of their respective authors.

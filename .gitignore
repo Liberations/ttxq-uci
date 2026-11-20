@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+bin/
+
+# Large binary assets (obtain via tools/extract_assets.sh or from upstream)
+pikafish.nnue
+*.nnue
+*.apk
+
+# Object / intermediate files
+*.o
+*.bin
+*.so.o
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

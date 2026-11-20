@@ -1,0 +1,4 @@
+# Normalize line endings for text files; keep binaries untouched.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.so binary
